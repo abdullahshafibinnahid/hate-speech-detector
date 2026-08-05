@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.pkl
+*.joblib
+
+# Models
+bangla-bert-gali/
+bangla-bert-gali-final/
+logs/
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db

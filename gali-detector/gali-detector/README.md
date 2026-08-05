@@ -4,7 +4,6 @@ Hate speech detection for Bangla, English, and Banglish (mixed) comments.
 
 ## Dataset
 - `full_mixed_dataset.csv` - 65,007 rows
-  - Merged from `train.csv` (BDSHS - 40,224 Bangla) + `labeled_data.csv` (24,783 English)
   - Columns: `text` (comment), `label` (0=NOT_HATE, 1=HATE)
 
 ## Project Structure
@@ -58,13 +57,3 @@ Response:
 ## Labels
 - 0 = NOT_HATE / VALO
 - 1 = HATE / GALI
-
-## GitHub Push
-```bash
-git init
-git add .
-git commit -m "Add multilingual hate speech detector"
-git branch -M main
-git remote add origin https://github.com/USERNAME/gali-detector.git
-git push -u origin main
-```
